@@ -1,2 +1,2 @@
-# unity-double-slider
-A working example of a double slider UI control in Unity.
+# unity-canvas-chat-screen
+A working example of a chat screen layout in Unity.
