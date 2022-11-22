@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
+using TS.ChatBubbles;
 #endregion
 
 namespace TS.Examples.ChatMessages
@@ -49,7 +50,7 @@ namespace TS.Examples.ChatMessages
         private IEnumerator Reply_Coroutine(string message)
         {
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f, 0.3f));
-            _chat.AddMessage(message, false);
+            _chat.AddMessage(message);
         }
     }
 }
