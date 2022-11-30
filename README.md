@@ -1,2 +1,2 @@
 # unity-canvas-chat-bubbles
-A working example of a double slider UI control in Unity.
+An implementation of a Unity chat screen with customizable message bubbles.
